@@ -16,7 +16,7 @@ import utils
 
 
 
-class DiscreteDenoisingDiffusion(pl.LightningModule):   # replace domain_features 
+class DiscreteDenoisingDiffusion(pl.LightningModule):   
     def __init__(self, cfg, input_dims, output_dims, nodes_dist, node_types, edge_types, extra_features, domain_features, data_loaders, sampling_metrics):
         super().__init__()
 

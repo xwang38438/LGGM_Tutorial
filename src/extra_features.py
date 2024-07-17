@@ -1,5 +1,5 @@
 import torch
-import utils
+import src.utils
 
 class ExtraNodeFeatures:
     def __init__(self):
